@@ -3,66 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RGB vs CMYK</title>
+    <title>RGB e CMYK: Diferenças e Aplicações</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #e3e3e3;
+            color: #222;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1000px;
             margin: auto;
-            overflow: hidden;
+            padding: 20px;
         }
         header {
-            background: #222;
-            color: #fff;
-            padding: 20px 0;
+            background: linear-gradient(to right, #ff4e50, #1e90ff);
+            color: white;
+            padding: 20px;
             text-align: center;
+            font-size: 24px;
+            font-weight: bold;
         }
         section {
+            background: white;
             padding: 20px;
-            background: #fff;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         img {
             width: 100%;
-            max-width: 600px;
+            max-width: 500px;
             display: block;
-            margin: 10px auto;
-            border-radius: 5px;
+            margin: 15px auto;
+            border-radius: 8px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #ff4e50;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>RGB vs CMYK</h1>
+        RGB e CMYK: Diferenças e Aplicações
     </header>
     <div class="container">
         <section>
-            <h2>O que é o modelo RGB?</h2>
-            <p>O modelo RGB (Red, Green, Blue) é um sistema de cores aditivas usado em telas digitais. As cores são criadas combinando diferentes intensidades dessas três cores primárias.</p>
-            <img src="imagens/rgb_example.jpg" alt="Exemplo de cores no modelo RGB">
+            <h2>Modelo RGB: Como Funciona?</h2>
+            <p>RGB (<span class="highlight">Red, Green, Blue</span>) é um modelo de cores aditivas utilizado em telas digitais. A combinação dessas três cores em diferentes intensidades cria a vasta gama de cores visíveis nos dispositivos eletrônicos.</p>
+            <img src="https://pederpan.github.io/computacao-grafica/assets/rgb_example.jpg" alt="Esquema de cores RGB">
         </section>
         <section>
-            <h2>Funcionamento do Pixel no RGB</h2>
-            <p>Em telas, cada pixel é composto por subpixels vermelhos, verdes e azuis. A variação de intensidade desses subpixels determina a cor final do pixel.</p>
-            <img src="imagens/pixel_rgb.jpg" alt="Funcionamento do pixel RGB">
+            <h2>Pixels e RGB</h2>
+            <p>Cada pixel de uma tela é composto por três subpixels: um vermelho, um verde e um azul. A variação da intensidade desses subpixels gera diferentes cores, permitindo imagens vibrantes e detalhadas.</p>
+            <img src="https://pederpan.github.io/computacao-grafica/assets/pixel_rgb.jpg" alt="Estrutura do pixel RGB">
         </section>
         <section>
-            <h2>O que é o modelo CMYK?</h2>
-            <p>O modelo CMYK (Cyan, Magenta, Yellow, Black) é um sistema de cores subtrativas usado na impressão. Ele funciona subtraindo luz refletida do papel para criar cores.</p>
-            <img src="imagens/cmyk_example.jpg" alt="Exemplo de cores no modelo CMYK">
+            <h2>Modelo CMYK: Impressão e Cores</h2>
+            <p>O modelo <span class="highlight">CMYK</span> (<span class="highlight">Cyan, Magenta, Yellow, Black</span>) é usado em impressões. Diferente do RGB, que adiciona luz para formar cores, o CMYK funciona removendo luz refletida do papel.</p>
+            <img src="https://pederpan.github.io/computacao-grafica/assets/cmyk_example.jpg" alt="Esquema de cores CMYK">
         </section>
         <section>
-            <h2>Comparação entre RGB e CMYK</h2>
-            <p>RGB é ideal para telas, enquanto CMYK é melhor para impressão. A conversão entre os dois modelos pode alterar as cores devido às diferenças nos espaços de cores.</p>
-            <img src="imagens/rgb_vs_cmyk.jpg" alt="Comparação entre RGB e CMYK">
+            <h2>RGB vs CMYK: Qual a Diferença?</h2>
+            <p>RGB é ideal para <span class="highlight">telas digitais</span>, enquanto CMYK é usado para <span class="highlight">materiais impressos</span>. A conversão entre os dois pode gerar diferenças de cor, pois cada modelo possui um espectro de cores distinto.</p>
+            <img src="https://pederpan.github.io/computacao-grafica/assets/rgb_vs_cmyk.jpg" alt="Comparação entre RGB e CMYK">
         </section>
     </div>
 </body>
