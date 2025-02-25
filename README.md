@@ -54,22 +54,22 @@
         <section>
             <h2>Modelo RGB: Como Funciona?</h2>
             <p>RGB (<span class="highlight">Red, Green, Blue</span>) é um modelo de cores aditivas utilizado em telas digitais. A combinação dessas três cores em diferentes intensidades cria a vasta gama de cores visíveis nos dispositivos eletrônicos.</p>
-            <img src="https://pederpan.github.io/computacao-grafica/assets/rgb_example.jpg" alt="Esquema de cores RGB">
+            <img src="imagens/rgb_example.jpg" alt="Esquema de cores RGB">
         </section>
         <section>
             <h2>Pixels e RGB</h2>
             <p>Cada pixel de uma tela é composto por três subpixels: um vermelho, um verde e um azul. A variação da intensidade desses subpixels gera diferentes cores, permitindo imagens vibrantes e detalhadas.</p>
-            <img src="https://pederpan.github.io/computacao-grafica/assets/pixel_rgb.jpg" alt="Estrutura do pixel RGB">
+            <img src="imagens/pixel_rgb.jpg" alt="Estrutura do pixel RGB">
         </section>
         <section>
             <h2>Modelo CMYK: Impressão e Cores</h2>
             <p>O modelo <span class="highlight">CMYK</span> (<span class="highlight">Cyan, Magenta, Yellow, Black</span>) é usado em impressões. Diferente do RGB, que adiciona luz para formar cores, o CMYK funciona removendo luz refletida do papel.</p>
-            <img src="https://pederpan.github.io/computacao-grafica/assets/cmyk_example.jpg" alt="Esquema de cores CMYK">
+            <img src="imagens/cmyk_example.jpg" alt="Esquema de cores CMYK">
         </section>
         <section>
             <h2>RGB vs CMYK: Qual a Diferença?</h2>
             <p>RGB é ideal para <span class="highlight">telas digitais</span>, enquanto CMYK é usado para <span class="highlight">materiais impressos</span>. A conversão entre os dois pode gerar diferenças de cor, pois cada modelo possui um espectro de cores distinto.</p>
-            <img src="https://pederpan.github.io/computacao-grafica/assets/rgb_vs_cmyk.jpg" alt="Comparação entre RGB e CMYK">
+            <img src="imagens/rgb_vs_cmyk.jpg" alt="Comparação entre RGB e CMYK">
         </section>
     </div>
 </body>
